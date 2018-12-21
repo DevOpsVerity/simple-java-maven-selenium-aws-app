@@ -16,6 +16,7 @@ public class ITHtmlUnitBrowser {
 	
 	@Before
 	public void setUp() throws Exception {
+		System.out.println("hello");
 	driver = new HtmlUnitDriver();
 	}
 /*
